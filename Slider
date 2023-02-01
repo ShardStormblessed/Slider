@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Págima web sobre mercado campesino">
+
+<!-- Links -->
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=PT+Sans&family=Pacifico&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=PT+Sans&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Paisilla's Café</title>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">        
+                <nav class="nav">
+                    <a href="index.html" class="nav__link">Inicio</a>
+                    <a href="nosotros.html" class="nav__link">Nosotro</a>
+                    <a href="cursos.html" class="nav__link">Cursos</a>
+                    <a href="tienda.html" class="nav__link">Tienda</a>
+                    <a href="contacto.html" class="nav__link">Contacto</a>
+                </nav>
+                <p class="origen">Medellín, Colombia</p>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="logo">
+                <img class="logo__img" src="img/logo.png" alt="Logo Paisilla's Café">
+        </div>
+    </div>
+    
+    <div class="contenedor">
+        <main class="contenedor-principal">
+            <div class="servicios">
+                <h1 class="servicios__texto">Café del mejor gusto</h1>
+                <div class="grid">
+                    <div class="servicios__contenedor">
+                        <img class="gif" src="img/Gif1.gif" alt="Gif sobre Café">
+                        <h3>Café</h3>
+                    </div>
+                    <div class="servicios__contenedor">
+                        <img class="gif" src="img/2_edited.jpg" alt="Foto chivero">
+                        <h3>Cultura</h3>
+                    </div>
+                    <div class="servicios__contenedor">
+                        <img class="gif" src="img/Gif2.gif" alt="Gif sobre respostería">
+                        <h3>Respostería</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="slider">
+                <div class="slider__texto">
+
+                </div>
+                <div class="slider__img">
+                    <ul>
+                        <li>
+                            <picture>
+                                <source loading="lazy" srcset="img/slider1.webp" type="image/webp">
+                                <img loading="lazy" src="img/slider1.jpg" alt="Foto slider">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture>
+                                <source loading="lazy" srcset="img/slider2.webp" type="image/webp">
+                                <img loading="lazy" src="img/slider2.jpg" alt="Foto slider">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture>
+                                <source loading="lazy" srcset="img/slider3.webp" type="image/webp">
+                                <img loading="lazy" src="img/slider3.jpg" alt="Foto slider">
+                            </picture>
+                        </li>
+                        <li>
+                            <picture>
+                                <source loading="lazy" srcset="img/slider4.webp" type="image/webp">
+                                <img loading="lazy" src="img/slider4.jpg" alt="Foto slider">
+                            </picture>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+
+</body>
+</html>
